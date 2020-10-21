@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'button',
+  selector: 'lib-button',
   template: './button.component.html',
 })
 export class LibButtonComponent {}
