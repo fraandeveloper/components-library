@@ -2,7 +2,8 @@
   "name": "@fraandeveloper/lib",
   "version": "0.0.2",
   "description": "Angular Library",
-  "author": "Francisco",
+  "author": "Francisco barros da silva",
+  "main": "dist/",
   "publishConfig": { "@fraandeveloper:registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
     "url": "https://github.com/fraandeveloper/components-library/issues"
   },
   "homepage": "https://github.com/fraandeveloper/components-library#readme",
+  "private": false,
   "peerDependencies": {
     "@angular/common": "^10.1.6",
     "@angular/core": "^10.1.6"
