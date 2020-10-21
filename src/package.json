@@ -1,6 +1,6 @@
 {
   "name": "@fraandeveloper/lib",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Angular Library",
   "author": "Francisco barros da silva",
   "main": "dist/",
