@@ -1,9 +1,9 @@
 {
-  "name": "@components/lib",
-  "version": "0.0.1",
+  "name": "@fraandeveloper/lib",
+  "version": "0.0.2",
   "description": "Angular Library",
   "author": "Francisco",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "@fraandeveloper/registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fraandeveloper/components-library.git"
