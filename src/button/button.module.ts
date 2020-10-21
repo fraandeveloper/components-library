@@ -6,6 +6,6 @@ import { LibButtonComponent } from './button.component';
 @NgModule({
   imports: [BrowserModule],
   declarations: [LibButtonComponent],
-  exports: []
+  exports: [LibButtonComponent]
 })
 export class LibButtonModule {}
