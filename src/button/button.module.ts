@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { LibButtonComponent } from './button.component';
 
 @NgModule({
-  imports: [LibButtonComponent],
+  imports: [BrowserModule],
   declarations: [LibButtonComponent],
   exports: []
 })
