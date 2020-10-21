@@ -17,6 +17,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "postinstall": "ngcc",
     "pack": "cd dist/ && npm pack",
     "package": "ng build --prod && npm run pack && cd dist/ && npm publish"
   },
