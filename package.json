@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "pack": "cd dist/ && npm pack",
-    "package": "ng build lib && npm run pack"
+    "package": "ng build --prod && npm run pack && cd dist/ && npm publish"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.1.6",
     "@angular/common": "~10.1.6",

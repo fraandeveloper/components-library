@@ -1,6 +1,18 @@
 {
-  "name": "lib",
+  "name": "@components/lib",
   "version": "0.0.1",
+  "description": "Angular Library",
+  "author": "Francisco",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraandeveloper/components-library.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraandeveloper/components-library/issues"
+  },
+  "homepage": "https://github.com/fraandeveloper/components-library#readme",
   "peerDependencies": {
     "@angular/common": "^10.1.6",
     "@angular/core": "^10.1.6"
